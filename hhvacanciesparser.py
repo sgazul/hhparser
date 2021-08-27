@@ -68,7 +68,6 @@ def hh_parse(URL, headers): # Main function to the HH pages parsing
             print('The city code is: ' + str(CityCode))
             print(str(SitePageNumberLimit) + ' HH pages going to be parsed if they are exist. The parser will work until first error.')
             print('We are finding all vacancies contains: ' + str(FindingVacancyTitle))
-            print('City code is ' + str(CityCode))
             print('Current vacancy number: ' + str(VacancionsCounter) + '. Current site page number: ' + str(SitePageNumber)) # And print it's number and current page number
     else: # If status code isn't 200 - print "Error!".
         print('Error!')
