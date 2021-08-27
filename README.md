@@ -6,3 +6,5 @@ Output csv file could be view in MS Excel by "Import" feauture (please use "Tran
 
 Tested at 27.08.2021.<br>
 If script not working, first thing to chech if attributes names is changed at hh site.
+
+sgazul/hhparser is licensed under the GNU General Public License v3.0
