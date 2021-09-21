@@ -30,7 +30,7 @@ def hh_parse(URL, headers): # Main function to the HH pages parsing
         global CityCode
         global FindingVacancyTitle
         soup = bs(FirstRequest.content, 'html.parser')
-        divs = soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy'}) + soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy vacancy-serp__vacancy_premium'}) + soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy vacancy-serp__vacancy_standard_plus'})
+        divs = soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy'}) + soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy vacancy-serp__vacancy_premium'}) + soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy vacancy-serp__vacancy_standard_plus'}) + soup.find_all('div', attrs={'data-qa': 'vacancy-serp__vacancy vacancy-serp__vacancy_standard'})
         for div in divs:
             # Trying to get data from page objects
             try:
