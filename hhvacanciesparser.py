@@ -1,5 +1,5 @@
-# Created by Stanislav Gazul (stanislav@gazul.ru) based on other scripts across the Internet
-# Output csv file could be view in MS Excel by "Import" feauture (please use Transform data option to use first row as the header)
+# Created by Stanislav Gazul (stanislav@gazul.ru) based on other scripts.
+# Output csv file could be view in MS Excel by "Import" feauture (please use Transform data option to use first row as the header).
 import requests
 import time
 import random
@@ -80,3 +80,4 @@ while SitePageNumber <= int(SitePageNumberLimit): #while not specified page coun
     SitePageNumber = SitePageNumber + 1
 print('Last collected vacancy number is: ' + str(VacancionsCounter-1) + '. Last site page number: ' + str(SitePageNumber-1)) # Print the last stats
 OutputFile.close()
+
